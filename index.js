@@ -39,7 +39,5 @@ client.on("interactionCreate", interaction => {
 })
 
 client.on("ready", () => {
-    console.log("--------------------");
-    console.log("📢 Announcer Loaded");
-    console.log("--------------------");
+    console.log("--------------------\n📢 Announcer Loaded\n--------------------");
 })
